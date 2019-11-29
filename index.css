@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 12px;
+}
+.haier-sea{
+    width:240px;
+    padding: 38px 9px 10px;
+}
+.h-img{
+    margin-bottom: 15px;
+}
+.h-money{
+    line-height: 22px;
+    height: 22px;
+    width: 100%;
+    margin: 0 0 8px;
+}
+.h-money strong{
+    color: #e1251b;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Verdana;
+}
+.jiage em{
+    font-size: 16px;
+}
+em,i{
+    font-style: normal;
+}
+.jiage-a{
+    margin-left: -7px;
+}
+.h-commit{
+    margin-bottom: 9px;
+}
+.pingjia-a{
+    margin-left: -4px;
+}
+.h-commit a{
+    color: #646fb0;
+    font-family: Verdana;
+    font-weight: 700;
+}
+.pingjia-a{
+    color: #a7a7a7;
+    font-weight: 400;
+}
+a{
+    color: #666;
+    text-decoration: none;
+}
+.Hai{
+    color: #e1251b;
+}
+.air{
+    color: #e1251b;
+}
+.h-name em{
+    line-height: 20px;
+}
+.h-name{
+    margin-bottom: 8px;
+}
+.h-shop span a{
+    color: #999;
+}
+.h-shop{
+    line-height: 18px;
+    height: 18px;
+    margin-top: -3px;
+    margin-bottom: 9px;
+}
+.h-shop span{
+    display: inline-block;
+    position: relative;
+    height: 18px;
+}
+.im-02{
+    width: 16px;
+    height: 16px;
+}
+.h-shop span .im-02{
+    cursor: pointer;
+    position: absolute;
+    right: -21px;
+    top: 1px;
+    display: block;
+}
+.h-icons{
+    height: 16px;
+    margin-bottom: 12px;
+}
+.self-support,
+.buy-at-ease {
+    position: relative;
+}
+
+.self-support:hover .tooltip1 {
+    display: block;
+}
+
+.buy-at-ease:hover .tooltip2 {
+    display: block;
+}
+
+.tooltip1{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    top: 25px;
+    width: 237px;
+    margin-left: -11px;
+    height: 35px;
+    line-height: 35px;
+    background-color: white;
+    border: 1px solid grey;
+    color:#666;
+
+}
+.tooltip2{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    top: 25px;
+    left: -31px;
+    width: 237px;
+    margin-left: -11px;
+    height: 35px;
+    line-height: 35px;
+    background-color: white;
+    border: 1px solid grey;
+    color:#666;
+}
+
+.tooltip1::before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: 10px;
+    padding: 3px;
+    background-color: inherit;
+    border: inherit;
+    border-right: 0;
+    border-bottom: 0;
+    transform: rotate(45deg);
+}
+.tooltip2::before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: 43px;
+    padding: 3px;
+    background-color: inherit;
+    border: inherit;
+    border-right: 0;
+    border-bottom: 0;
+    transform: rotate(45deg);
+}
+.ziti1{
+    margin-left: 6px;
+}
+.ziti2{
+    margin-left: 8px;
+}
+.skcolor_ljg:hover{
+    color: #e23a3a;
+}
+.h-operate .h-o-btn:hover{
+    color: #e4393c;
+    z-index: 1;
+    border-color:#e4393c;
+}
+.h-operate .contrast:hover i{
+    border-color: #e4393c;
+}
+.self-support{
+    float: left;
+    height: 16px;
+    line-height: 16px;
+    font-size: 12px;
+    padding: 0 3px;
+    margin-right: 3px;
+    background: #e23a3a;
+    color: #FFF;
+    font-family: "Helvetica Neue","Hiragino Sans GB",SimSun,serif;
+    border-radius: 2px;
+}
+.buy-at-ease{
+    float: left;
+    font-family: "Helvetica Neue","Hiragino Sans GB",SimSun,serif;
+    height: 14px;
+    line-height: 14px;
+    padding: 0 3px;
+    border: 1px solid #e23a3a;
+    border-radius: 2px;
+}
+.h-operate .contrast{
+    width: 28px;
+}
+.h-operate .follow{
+    width: 28px;
+}
+.h-operate{
+    position: relative;
+    width: 220px;
+    height: 27px;
+}
+.h-operate .h-o-btn{
+    float: left;
+    height: 25px;
+    line-height: 25px;
+    border: 1px solid #DDD;
+    padding: 0px 5px 0px 24px;
+    position: relative;
+    background: #fff;
+    color: #999;
+}
+.h-operate .contrast i{
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    border:1px solid #ccc;
+    font-size: 0px;
+}
+.kongxin{
+    position: absolute;
+    display: block;
+    font-style: normal;
+    left: 4px;
+    top: 3px;
+    width: 18px;
+    height: 18px;
+    background: url(img/search.ele.png);
+    background-position: 0 -413px;
+}
+.h-operate .follow:hover .kongxin {
+    background: url(img/search.ele.png);
+    background-position: 0 -436px;
+    transition: background-position 0.3s ease-in-out;
+}
+.h-o-btn:hover .kongxin{
+    bottom: 0;
+}
+.h-o-btn:hover .hongxin{
+    display: block;
+}
+.h-operate .follow, .shopping-cart{
+    margin-left: -1px;
+}
+.h-operate .shopping-cart{
+    width: 67px;
+    text-align: center;
+    color: #e4393c;
+}
+.h-operate .shopping-cart i{
+    position: absolute;
+    display: block;
+    font-style: normal;
+    left: 4px;
+    top: 3px;
+    width: 18px;
+    height: 18px;
+    background: url(img/search.ele.png)0 -272px;
+}
